@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Flowers | Florería</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- ICONOS FLATICON -->
+    <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css">
+
+    <!-- SWIPER -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos_maquetacion.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.jpg">
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Logo Bloom Flowers">
+                </a>
+            </div>
+
+            <!-- MENÚ -->
+            <nav>
+                <ul class="nav-menu">
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">
+                            Catálogo ▾
+                        </a>
+
+                        <ul class="dropdown-content">
+                            <li><a href="#">Ramos</a></li>
+                            <li><a href="#">Arreglos</a></li>
+                            <li><a href="#">Eventos</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Contacto</a></li>
+
+                    <li>
+                        <a href="login.html" class="btn-login">
+                            Comprar
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <div class="swiper mainBanner">
+        <div class="swiper-wrapper">
+            
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <a href="#" class="banner-link">
+                    <img src="banner/img1.jpg" alt="Ramos de flores">
+                    <div class="banner-content">
+                        <div class="text-box">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <a href="#" class="banner-link">
+                    <img src="banner/img2.jpg" alt="Arreglos florales">
+                    <div class="banner-content">
+                        <div class="text-box">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <a href="#" class="banner-link">
+                    <img src="banner/img3.jpg" alt="Flores para eventos">
+                    <div class="banner-content">
+                        <div class="text-box">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- CONTENIDO -->
+    <main class="container" style="padding: 100px 0;">
+
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">
+            Bloom Flowers
+        </h1>
+
+        <p style="font-size: 1.2rem; max-width: 700px;">
+            Encuentra los arreglos florales perfectos para cumpleaños,
+            aniversarios, bodas y momentos especiales.
+        </p>
+
+        <!-- SECCIÓN FLORES -->
+        <section class="seccion-info">
+
+            <h2 class="titulo-seccion">
+                Arreglos Destacados
+            </h2>
+
+            <div class="contenedor-dos">
+
+                <!-- RAMOS -->
+                <div class="cuadro cuadro-grande">
+
+                    <div class="imagen-placeholder">
+                        <img src="img/img1.jpg" alt="Ramo de rosas">
+                    </div>
+
+                    <h3>Ramos de Rosas</h3>
+
+                    <p>
+                        Sorprende con hermosos ramos de rosas frescas
+                        ideales para cualquier ocasión especial.
+                    </p>
+
+                    <a href="#" class="leer-mas">
+                        Ver más
+                    </a>
+                </div>
+
+                <!-- ARREGLOS -->
+                <div class="cuadro cuadro-grande">
+
+                    <div class="imagen-placeholder">
+                        <img src="img/img2.jpg" alt="Arreglo floral">
+                    </div>
+
+                    <h3>Arreglos Elegantes</h3>
+
+                    <p>
+                        Diseños florales únicos para decorar eventos,
+                        bodas y celebraciones inolvidables.
+                    </p>
+
+                    <a href="#" class="leer-mas">
+                        Ver más
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- PROMOCIONES -->
+            <h2 class="titulo-seccion">
+                Promociones y Eventos
+            </h2>
+
+            <div class="contenedor-tres">
+
+                <!-- PROMO -->
+                <div class="cuadro cuadro-pequeno">
+
+                    <div class="media-container">
+                        <img src="img/img3.jpg" alt="Promoción floral">
+                    </div>
+
+                    <h4>Oferta Especial</h4>
+
+                    <p>
+                        Obtén descuentos exclusivos en arreglos
+                        florales para fechas especiales.
+                    </p>
+
+                </div>
+
+                <!-- VIDEO -->
+                <div class="cuadro cuadro-pequeno">
+
+                    <div class="media-container">
+                        <video controls>
+                            <source src="img/video.mp4" type="video/mp4">
+                            Tu navegador no soporta videos.
+                        </video>
+
+                    </div>
+
+                    <h4>Decoraciones Florales</h4>
+
+                    <p>
+                        Descubre nuestros diseños y decoraciones
+                        para bodas y eventos.
+                    </p>
+
+                </div>
+
+                <!-- EVENTOS -->
+                <div class="cuadro cuadro-pequeno">
+
+                    <div class="media-container">
+                        <img src="img/img4.jpg" alt="Flores para eventos">
+                    </div>
+
+                    <h4>Flores para Eventos</h4>
+
+                    <p>
+                        Creamos ambientes únicos con flores frescas
+                        y decoración personalizada.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- CONTACTO -->
+                <div class="footer-col">
+
+                    <h4>Contacto</h4>
+
+                    <p>📍 Av. Floral 202</p>
+                    <p>📞 +52 993 123 4567</p>
+                    <p>✉️ bloomflowers@gmail.com</p>
+
+                </div>
+
+                <!-- UBICACIÓN -->
+                <div class="footer-col">
+
+                    <h4>Ubicación</h4>
+
+                    <p>Villahermosa, Tabasco</p>
+                    <p>México, CP 86000</p>
+
+                    <a href="#">
+                        Ver en Google Maps
+                    </a>
+
+                </div>
+
+                <!-- ENLACES -->
+                <div class="footer-col">
+
+                    <h4>Enlaces Rápidos</h4>
+
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="footer-bottom">
+
+                &copy; 2026 Bloom Flowers.
+                Todos los derechos reservados.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="banner.js"></script>
+
+</body>
+</html>
